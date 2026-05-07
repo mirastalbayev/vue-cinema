@@ -1,0 +1,8 @@
+name: CI/CD
+on: [push]
+jobs:
+  Validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        run: echo "Some Text"
