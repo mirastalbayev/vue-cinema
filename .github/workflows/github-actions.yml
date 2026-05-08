@@ -4,5 +4,9 @@ jobs:
   Validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Display some Text
         run: echo "Some Text"
+      - name: Command in Multiline
+        run: |
+          node -v
+          npm -v
