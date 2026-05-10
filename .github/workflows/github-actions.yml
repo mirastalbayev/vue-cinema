@@ -1,5 +1,5 @@
 name: CI/CD
-on: workflow_dispatch
+on: push
 jobs:
   Validate:
     runs-on: ubuntu-latest
